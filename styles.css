@@ -1,0 +1,81 @@
+.navbar {
+  background-color: #6C6EA0;
+}
+/* .jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #fabb45, #fa6868, #fa4d08);
+  color: rgb(248, 247, 247);
+  margin: 0;
+} */
+table {
+  background-color: gray;
+}
+.card-body {
+  background-color: #C1CAD6;
+}
+h3 {
+  text-decoration: underline;
+}
+.big-banner {
+  background-image: url('img/Beer.jpeg');
+}
+#RestaurantNavbar {
+  text-decoration: underline;
+}
+.logo-image {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+.jumbotron {
+  background-image: url('img/jumbotron.jpeg');
+  background-size: cover;
+  height: 100%;
+}
+.card {
+  vertical-align: middle;
+}
+ul {
+  font-size: large;
+  color: white;
+}
+.nav-item {
+  color: white;
+}
+#title {
+  color: #FF1053;
+  text-decoration:underline;
+  text-align: center;
+  font: size 100%;;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+th{
+  text-decoration: underline;
+  font-size: x-large;
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+  width: 20%;
+  background-color: tan;
+  text-align: center;
+  height: 20%;
+}
+h6 {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  font: size 200%;
+}
+#beer {
+  background-image: url(img/bar.jpeg);
+  background-size: fill;
+  height: 100%;
+  background-repeat: no-repeat;
+}
