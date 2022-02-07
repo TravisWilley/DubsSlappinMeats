@@ -11,11 +11,20 @@
 table {
   background-color: gray;
 }
+li{
+  color: black;
+  text-decoration: underline;
+}
+#contactPage{
+  text-align: center;
+  list-style-position: inside
+}
 .card-body {
   background-color: #D5ECD4;
 }
 h3 {
-  text-decoration: underline;
+  text-align: center;
+  text-decoration-color: red;
 }
 .big-banner {
   background-image: url('img/Beer.jpeg');
@@ -46,7 +55,7 @@ ul {
   color: white;
 }
 #title {
-  color: #FF1053;
+  color: #4e3434;
   text-decoration:underline;
   text-align: center;
   font: size 100%;;
@@ -78,4 +87,30 @@ h6 {
   background-size: fill;
   height: 100%;
   background-repeat: no-repeat;
+}
+#application{
+  position: fixed;
+  bottom: 0px;
+  color: black;
+  text-decoration: underline;
+}
+#number{
+  text-align: center;
+  display: inline-block;
+}
+text{
+  text-decoration: underline;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+h5{
+  background-color: #A1B0AB;
+  text-decoration: underline
+}
+mark{
+  background-color: #D5ECD4;
 }

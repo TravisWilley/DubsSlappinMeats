@@ -18,7 +18,7 @@
   <!--Jumbotron-->
   <div class="jumbotron jumbotron-fluid my-0">
     <div class="container">
-      <h1 class="display-4">Dubs Slappin Meats</h1>
+      <h1 class="display-4" id="title">Dubs Slappin Meats</h1>
       <small class="text-muted">BBQ & Beer</small>
     </div>
   </div>
@@ -48,10 +48,15 @@
   </nav>
   <!---->
   <style>
-        .jumbotron {
+    .jumbotron {
       background-image: url('img/jumbotron.jpeg');
       background-size: cover;
       height: 100%;
+    }
+    body{
+      background-image: url("img/contact.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   </style>
   <!--Breadcrumb-->
@@ -65,13 +70,69 @@
       </div>
     </div>
   </div>
+      <!--Apply-->
+<!-- Button trigger modal -->
+<button id="application" type="button" class="btn btn-success" data-toggle="modal" data-target="#apply">
+  Apply Now!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="apply" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="apply" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="apply">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Full name:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Phone Number:</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <small class="text-muted">We will contact you to setup an interview date.</small>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!---->
   <!---->
-  <div id="apply">
-    <button type="button" class="btn btn-outline-warning">Apply Now</button>
+  <div id="contactPage">
+  <ul>
+    <li>Phone:   <a class="text-primary">123-456-7890</a></li>
+    <li>Address:   <a class="text-primary" href="https://www.google.com/maps">123 Abc St. Unknown, CA 99999</a></li>
+    <li>Email:    <a class="text-primary" href="https://mail.yahoo.com/">DubsSlappin@yahoo.com</a></li>
+  </ul>
+  </div>
+ <!--  <div class="col-sm-4 text-center" id="number">
+    <text>Phone:</text>
+    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
+  </div>
+  <div class="col-sm-4 text-center" id="number">
+    <text>Email Address:</text>
+    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a><br />
+  </div>
+  <div class="col-sm-4 text-center" id="number">
+    <text>Mailing Address:</text>
+    <a role="button" class="btn btn-link" href=""><i class="fa fa-envelope-o"></i> 123 Abc St. Unknown, CA 99999</a>
+  </div> -->
+</body>
+<footer id="footer">
+
+  </footer>
   </div>
 
-
-</body>
     <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
