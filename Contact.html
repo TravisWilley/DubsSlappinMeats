@@ -37,14 +37,14 @@
           <li class="nav-item"><a class="nav-link" href="Contact.html"><i class="fa fa-lg"></i> Contact us</a></li>
         </ul>
       </div>
-        <div>
-          <ul class="navbar-nav">
-            <li class="nav-item align"><a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart"
-                  aria-hidden="true"></i>
-                Cart</a></li>
-          </ul>
-        </div>
+      <div>
+        <ul class="navbar-nav">
+          <li class="nav-item align"><a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart"
+                aria-hidden="true"></i>
+              Cart</a></li>
+        </ul>
       </div>
+    </div>
     </div>
   </nav>
   <!---->
@@ -54,7 +54,8 @@
       background-size: cover;
       height: 100%;
     }
-    body{
+
+    body {
       background-image: url("img/contact.jpeg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -71,52 +72,61 @@
       </div>
     </div>
   </div>
-      <!--Apply-->
-<!-- Button trigger modal -->
-<button id="application" type="button" class="btn btn-success" data-toggle="modal" data-target="#apply">
-  Apply Now!
-</button>
+  <!--Apply-->
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#apply">
+    Apply Now!
+  </button>
 
-<!-- Modal -->
-<div class="modal fade" id="apply" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="apply" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="apply">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
+  <!-- Modal -->
+  <div class="modal fade" id="apply" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title bg-secondary mx-auto" id="exampleModalLabel">Application</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
           <div class="form-group">
-            <label for="exampleInputEmail1">Full name:</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            Full name:
+            <input>
           </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Phone Number:</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-          <small class="text-muted">We will contact you to setup an interview date.</small>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+          Date of Birth:
+          <input>
+        </div>
+        <div>
+          Phone Number:
+          <input>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div>
+          <small>We will contact you shortly to set up an interview!</small>
+        </div>
+
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
-</div>
-      <!---->
+  </div>
+  <!---->
   <!---->
   <div id="contactPage">
-  <ul>
-    <li>Phone:   <a class="text-primary">123-456-7890</a></li>
-    <li>Address:   <a class="text-primary" href="https://www.google.com/maps">123 Abc St. Unknown, CA 99999</a></li>
-    <li>Email:    <a class="text-primary" href="https://mail.yahoo.com/">DubsSlappin@yahoo.com</a></li>
-  </ul>
+    <ul>
+      <li>Phone: <a class="text-primary">123-456-7890</a></li>
+      <li>Address: <a class="text-primary" href="https://www.google.com/maps">123 Abc St. Unknown, CA 99999</a></li>
+      <li>Email: <a class="text-primary" href="https://mail.yahoo.com/">DubsSlappin@yahoo.com</a></li>
+    </ul>
   </div>
- <!--  <div class="col-sm-4 text-center" id="number">
+  <!--  <div class="col-sm-4 text-center" id="number">
     <text>Phone:</text>
     <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
   </div>
@@ -131,13 +141,13 @@
 </body>
 <footer id="footer">
 
-  </footer>
-  </div>
+</footer>
+</div>
 
-    <!-- build:js js/main.js -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- endbuild -->
+<!-- build:js js/main.js -->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- endbuild -->
 
 </html>
