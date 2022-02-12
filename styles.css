@@ -88,6 +88,9 @@ h6 {
   height: 100%;
   background-repeat: no-repeat;
 }
+#total{
+  text-align: center;
+}
 #application{
   position: fixed;
   bottom: 0px;
