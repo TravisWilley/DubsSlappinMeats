@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beer Menu</title>
+  <!-- build:css css/main.css -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="styles.css">
+  <!-- endbuild -->
+</head>
+
+<body id="beer">
+
+  <!--Jumbotron-->
+  <div class="jumbotron jumbotron-fluid big-banner my-0">
+    <div class="container">
+      <h1 class="display-4" id="title">Dubs Slappin Meats</h1>
+      <small class="text-muted">BBQ & Beer</small>
+    </div>
+  </div>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-sm navbar-light sticky-top my-0">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#restaurantNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="restaurantNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html"><i class="fa fa-lg"></i> Menu</a></li>
+          <li class="nav-item active"><a class="nav-link" href="beer.html"><i class="fa fa-lg"></i> Beer</a></li>
+          <li class="nav-item"><a class="nav-link" href="events.html"><i class="fa fa-lg"></i> Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contact.html"><i class="fa fa-lg"></i> Contact us</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="navbar-nav">
+          <li class="nav-item align"><a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart"
+                aria-hidden="true"></i>
+              Cart</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <!---->
+  <!--Breadcrumb-->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <ol class="breadcrumb bg-light">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active">Beer Menu</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <h6>
+    <bold>*WE DONT SERVE WATER*</bold>
+  </h6>
+  <style>
+    .card {
+      margin: 1rem;
+    }
+
+    body {
+      background-image: url("img/bar.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .jumbotron {
+      background-image: url('img/jumbotron.jpeg');
+      background-size: cover;
+      height: 100%;
+    }
+
+    #cart {
+      background-color: gray;
+      text-align: center;
+    }
+  </style>
+  <table>
+    <tr>
+      <th>Beer:</th>
+      <Th>Price:</Th>
+    </tr>
+    <tr>
+      <td>Michelob Ultra</td>
+      <td>$6.99</td>
+    </tr>
+    <tr>
+      <td>Coors Light</td>
+      <td>$6.99</td>
+    </tr>
+    <tr>
+      <td>Old Caz-Cazzers</td>
+      <td>$8.99</td>
+    </tr>
+    <tr>
+      <td>Old Caz-RPX</td>
+      <td>$8.99</td>
+    </tr>
+    <tr>
+      <td>Old Caz-Midas</td>
+      <td>$8.99</td>
+    </tr>
+    <tr>
+      <td>Great White</td>
+      <td>$6.99</td>
+    </tr>
+    <tr>
+      <td>Bud Light</td>
+      <td>$6.99</td>
+    </tr>
+    <tr>
+      <td>Guiness</td>
+      <td>$7.99</td>
+    </tr>
+    <tr>
+      <td>Corona</td>
+      <td>$8.99</td>
+    </tr>
+    <tr>
+      <td>Blue Moon</td>
+      <td>$8.99</td>
+    </tr>
+    <tr>
+      <td>Heineken</td>
+      <td>$8.99</td>
+    </tr>
+  </table>
+</body>
+<!-- build:js js/main.js -->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- endbuild -->
+
+</html>

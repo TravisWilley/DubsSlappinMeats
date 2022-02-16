@@ -1,0 +1,145 @@
+.navbar {
+  background-color: #a1b0ab;
+}
+/* .jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #fabb45, #fa6868, #fa4d08);
+  color: rgb(248, 247, 247);
+  margin: 0;
+} */
+table {
+  background-color: gray;
+}
+li {
+  color: black;
+  text-decoration: underline;
+}
+#contactPage {
+  text-align: center;
+  list-style-position: inside;
+}
+.card-body {
+  background-color: #d5ecd4;
+}
+h3 {
+  text-align: center;
+  text-decoration-color: red;
+}
+.big-banner {
+  background-image: url('img/Beer.jpeg');
+}
+#RestaurantNavbar {
+  text-decoration: underline;
+}
+.logo-image {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+.jumbotron {
+  background-image: url('img/jumbotron.jpeg');
+  background-size: cover;
+  height: 100%;
+}
+.card {
+  vertical-align: middle;
+}
+ul {
+  font-size: large;
+  color: white;
+}
+.nav-item {
+  color: white;
+}
+#title {
+  color: #4e3434;
+  text-decoration: underline;
+  text-align: center;
+  font: size 100%;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+th {
+  text-decoration: underline;
+  font-size: x-large;
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+  width: 20%;
+  background-color: tan;
+  text-align: center;
+  height: 20%;
+}
+h6 {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  font: size 200%;
+}
+#beer {
+  background-image: url(img/bar.jpeg);
+  background-size: fill;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+#total {
+  text-align: center;
+}
+#application {
+  position: fixed;
+  bottom: 0px;
+  color: black;
+  text-decoration: underline;
+}
+#number {
+  text-align: center;
+  display: inline-block;
+}
+text {
+  text-decoration: underline;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
+}
+h5 {
+  background-color: #a1b0ab;
+  text-decoration: underline;
+  -webkit-text-stroke: 2px rgb(30, 87, 38);
+}
+mark {
+  background-color: #d5ecd4;
+}
+li:hover {
+  background-color: rgb(87, 231, 241);
+}
+#subtitle {
+  display: inline;
+  text-decoration: underline;
+  color: rgb(0, 2, 2);
+  font-size: large;
+  background-color: rgb(36, 163, 57);
+  border-radius: 5px;
+}
+.card {
+  box-shadow: 0 2px 5px 0 rgb(0, 0, 0.2);
+}
+h1 {
+  text-shadow: 8px 8px 20px black;
+}
+#subtitle {
+  text-shadow: 8px 8px 20px black;
+  text-align: center;
+  text-decoration: underline;
+  text-emphasis-color: green;
+  background-color: #4e3434;
+  text-transform: uppercase;
+}
