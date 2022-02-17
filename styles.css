@@ -173,3 +173,8 @@ h1 {
 #pattyMelt:hover + .hide {
   display: block;
 }
+#highlight {
+  text-decoration: underline;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px green;
+}
