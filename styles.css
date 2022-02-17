@@ -1,13 +1,11 @@
 .navbar {
   background-color: #a1b0ab;
 }
-/* .jumbotron {
-  margin: 0;
-  padding: 30px;
-  background-image: linear-gradient(to right, #fabb45, #fa6868, #fa4d08);
-  color: rgb(248, 247, 247);
-  margin: 0;
-} */
+.jumbotron {
+  background-image: url('img/jumbotron.jpeg');
+  background-size: cover;
+  height: 100%;
+}
 table {
   background-color: gray;
 }
@@ -39,11 +37,7 @@ h3 {
   overflow: hidden;
   margin-top: -6px;
 }
-.jumbotron {
-  background-image: url('img/jumbotron.jpeg');
-  background-size: cover;
-  height: 100%;
-}
+
 .card {
   vertical-align: middle;
 }
@@ -68,6 +62,7 @@ th {
   text-decoration: underline;
   font-size: x-large;
   border: 1px solid black;
+  background-color: #809781;
 }
 td {
   border: 1px solid black;
@@ -118,29 +113,63 @@ h5 {
 mark {
   background-color: #d5ecd4;
 }
-li:hover {
-  background-color: rgb(87, 231, 241);
-}
-#subtitle {
-  display: inline;
-  text-decoration: underline;
-  color: rgb(0, 2, 2);
-  font-size: large;
-  background-color: rgb(36, 163, 57);
-  border-radius: 5px;
-}
 .card {
-  box-shadow: 0 2px 5px 0 rgb(0, 0, 0.2);
+  box-shadow: 8px 8px 8px 8px rgb(3, 3, 3);
 }
 h1 {
   text-shadow: 8px 8px 20px black;
 }
 #subtitle {
   text-shadow: 8px 8px 20px black;
-  text-align: center;
   text-decoration: underline;
-  text-emphasis-color: green;
-  background-color: #4e3434;
+  color: white;
+  background-color: #809781;
   text-transform: uppercase;
-  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid #809781;
+  padding: 10px;
+  font-size: large;
+}
+.hide {
+  display: none;
+}
+#plainBurger:hover + .hide {
+  display: block;
+}
+#westernBurger:hover + .hide {
+  display: block;
+}
+#theJeffery:hover + .hide {
+  display: block;
+}
+#veggieBurger:hover + .hide {
+  display: block;
+}
+#chickenSandwich:hover + .hide {
+  display: block;
+}
+#tunaMelt:hover + .hide {
+  display: block;
+}
+#pattyMelt:hover + .hide {
+  display: block;
+}
+#hotWings:hover + .hide {
+  display: block;
+}
+#triTip:hover + .hide {
+  display: block;
+}
+#pattyMelt:hover + .hide {
+  display: block;
+}
+#pattyMelt:hover + .hide {
+  display: block;
+}
+#pattyMelt:hover + .hide {
+  display: block;
+}
+#pattyMelt:hover + .hide {
+  display: block;
 }

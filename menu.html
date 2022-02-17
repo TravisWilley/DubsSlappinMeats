@@ -19,7 +19,7 @@
   <div class="jumbotron jumbotron-fluid my-0">
     <div class="container">
       <h1 class="display-4" id="title">Dubs Slappin Meats</h1>
-      <small class="text-muted">BBQ & Beer</small>
+      <text id="subtitle">BBQ & Beer</text>
     </div>
   </div>
   <!--Navbar-->
@@ -65,12 +65,6 @@
       background-color: gray;
     }
 
-    .jumbotron {
-      background-image: url('img/jumbotron.jpeg');
-      background-size: cover;
-      height: 100%;
-    }
-
     body {
       background-color: gray;
     }
@@ -82,6 +76,13 @@
 
     text {
       text-decoration: underline;
+    }
+
+    .card:hover {
+      zoom: 150%;
+      transition: 2s;
+      transform: scale(1.1);
+      font-size: larger;
     }
   </style>
   <h3 id="highlight">Burgers:</h3>
