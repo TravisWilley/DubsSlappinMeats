@@ -2,7 +2,7 @@
   background-color: #a1b0ab;
 }
 .jumbotron {
-  background-image: url('img/jumbotron.jpeg');
+  background-image: url('img/jumbotron.jpg');
   background-size: cover;
   height: 100%;
 }
@@ -25,7 +25,7 @@ h3 {
   text-decoration-color: red;
 }
 .big-banner {
-  background-image: url('img/Beer.jpeg');
+  background-image: url('img/Beer.jpg');
 }
 #RestaurantNavbar {
   text-decoration: underline;
@@ -78,7 +78,7 @@ h6 {
   font: size 200%;
 }
 #beer {
-  background-image: url(img/bar.jpeg);
+  background-image: url(img/bar.jpg);
   background-size: fill;
   height: 100%;
   background-repeat: no-repeat;
