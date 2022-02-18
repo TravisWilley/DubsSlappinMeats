@@ -6,5 +6,8 @@
     {
       "path": "F:\\NucampFolder\\2-Bootstrap\\nucampsite"
     }
-  ]
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "DubsSlappinMeats"
+  }
 }
